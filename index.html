@@ -12,25 +12,27 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body style="font-family: 'Roboto'; color: #757575; font-style: normal">
     <header>
-      <a href="index.html" title="Strona główna">
+      <a class="links menu-text" href="index.html" title="Strona główna">
         <span class="logo-blue">Web</span><span class="logo-black">Studio</span></a
       >
       <nav>
-        <ul>
-          <li><a href="index.html" class="menu-text" target="_self">Agencja</a></li>
-          <li><a href="portfolio.html" class="menu-text" target="_self"> Portfolio </a></li>
-          <li><a href="#" class="menu-text">Kontakt</a></li>
+        <ul class="lists">
+          <li><a class="links menu-text" href="index.html" target="_self">Agencja</a></li>
+          <li>
+            <a class="links menu-text" href="portfolio.html" target="_self"> Portfolio </a>
+          </li>
+          <li><a class="links menu-text" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="lists">
         <li>
-          <a href="mailto:info@devstudio.com" class="menu-kontakt">info@devstudio.com</a>
+          <a class="links menu-kontakt" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li><a href="tel:+48111111111" class="menu-kontakt">+48 111 111 111</a></li>
+        <li><a class="links menu-kontakt" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
     <main>
@@ -39,7 +41,7 @@
         <button class="banner-button" type="button">Zamów usługę</button>
       </section>
       <section class="features">
-        <ul>
+        <ul class="lists">
           <li><h3 class="features-headers">Lorem ipsum</h3></li>
           <li>
             <p class="features-text">
@@ -71,8 +73,8 @@
         </ul>
       </section>
       <section class="section-images">
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="gallery">Czym się zajmujemy</h2>
+        <ul class="lists">
           <li>
             <img src="images/graphic1.jpg" alt="Piszemy na klawiaturze" width="370" height="294" />
           </li>
@@ -96,8 +98,8 @@
       </section>
 
       <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+        <h2 class="gallery">Nasz zespół</h2>
+        <ul class="lists">
           <li>
             <figure>
               <img
@@ -107,7 +109,7 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
+                <h4 class="team-names">John Doe</h4>
                 Product Designer
               </figcaption>
             </figure>
@@ -121,7 +123,7 @@
                 height="260"
               />
               <figcaption>
-                <h4>John Doe</h4>
+                <h4 class="team-names">John Doe</h4>
                 <br />Frontend Developer
               </figcaption>
             </figure>
@@ -131,7 +133,7 @@
               <img src="images/team3.jpg" alt="John Doe - Marketing" width="270" height="260" />
 
               <figcaption>
-                <h4>John Doe</h4>
+                <h4 class="team-names">John Doe</h4>
                 Marketing
               </figcaption>
             </figure>
@@ -140,7 +142,7 @@
             <figure>
               <img src="images/team4.jpg" alt="John Doe - UI Designer" width="270" height="260" />
               <figcaption>
-                <h4>John Doe</h4>
+                <h4 class="team-names">John Doe</h4>
                 UI Designer
               </figcaption>
             </figure>
@@ -148,19 +150,19 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="index.html" title="Strona główna">
+    <footer class="footer">
+      <a class="links" href="index.html" title="Strona główna">
         <p class="logo-blue"><span class="blue">Web</span><span class="logo-white">Studio</span></p>
       </a>
-      <ul>
+      <ul class="lists">
         <li>
           <address>m. Warszawa, Aleje Jerozolimskie 21</address>
         </li>
         <li>
-          <a class="footer-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="footer-address links" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="footer-address" href="tel:+48111111111">+48 111 111 111</a>
+          <a class="footer-address links" href="tel:+48111111111">+48 111 111 111</a>
         </li>
       </ul>
     </footer>

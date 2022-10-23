@@ -1,18 +1,22 @@
-body {
+/*body {
   display: inline;
 }
-header {
-  display: block;
+
+*/
+
+.lists {
+  list-style-type: none;
 }
-a[href] {
+/*
+.links {
+  text-decoration: none; 
+}*/
+.links:link {
   text-decoration: none;
 }
-
-a:hover a:focus {
+.links:hover,
+.links:focus {
   color: #2196f3;
-}
-ul {
-  list-style-type: none;
 }
 
 .logo-blue {
@@ -41,7 +45,6 @@ ul {
   color: #212121;
   font-weight: 500;
   letter-spacing: 0.02em;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .menu-kontakt {
   color: #757575;
@@ -66,9 +69,9 @@ ul {
   height: 50px;
   left: 700px;
   top: 460px;
+  font-family: 'Roboto';
   background-color: #2196f3;
   color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -88,31 +91,34 @@ ul {
   line-height: 171%;
   letter-spacing: 0.03em;
 }
-h2 {
+.gallery {
   font-weight: 700;
   font-size: 36px;
   color: #212121;
 }
-h4 {
+.team-names {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: #212121;
 }
-footer {
+.footer {
   background-color: #2f303a;
   color: #ffffff;
+  font-style: normal;
 }
 .footer-address {
   color: #ffffff;
   opacity: 60%;
 }
 
+/* Część dotycząca portfolio */
 .portfolio-button {
   background-color: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
+  font-family: 'Roboto';
   cursor: pointer;
   height: 38px;
   border: 0;
@@ -122,10 +128,8 @@ footer {
 .portfolio-button:focus {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-h3 {
+.portfolio-names {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
