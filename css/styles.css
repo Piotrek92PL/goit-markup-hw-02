@@ -111,6 +111,13 @@
   color: #ffffff;
   opacity: 60%;
 }
+.adres {
+  font-style: normal;
+}
+.adres,
+.footer-address {
+  font-size: 14px;
+}
 
 /* Część dotycząca portfolio */
 .portfolio-button {
