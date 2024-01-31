@@ -68,7 +68,6 @@
   cursor: pointer;
 }
 
-/* Stylizacja funkcji */
 .features-headers,
 .gallery,
 .portfolio-names {
@@ -92,7 +91,6 @@
   font-size: 36px;
 }
 
-/* Stylizacja zespołu */
 .team-names {
   font-weight: 500;
   font-size: 16px;
@@ -100,7 +98,6 @@
   color: var(--color-black);
 }
 
-/* Stylizacja stopki */
 .footer {
   background-color: var(--color-dark-grey);
   color: var(--color-white);
@@ -112,7 +109,6 @@
   font-size: 14px;
 }
 
-/* Stylizacja portfolio */
 .portfolio-button {
   background-color: #f5f4fa;
   border-radius: 4px;
